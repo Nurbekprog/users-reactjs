@@ -1,0 +1,14 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(45deg, red, blue);
+}
+
+.user-card {
+  transition: all .7s;
+}
+
+.user-card:hover {
+  transform: scale(1.1);
+}
